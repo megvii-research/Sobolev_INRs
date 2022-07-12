@@ -1,0 +1,5 @@
+exp_name = woman/val/sine
+
+filename = woman
+supervision = val
+activations = [sine, sine, sine, sine]

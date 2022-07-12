@@ -1,0 +1,12 @@
+ConfigArgParse==1.5.3
+einops==0.4.1
+imageio==2.13.5
+kornia==0.6.5
+matplotlib==3.0.3
+numpy==1.18.1
+opencv_python==4.1.2.30
+Pillow==9.2.0
+scipy==1.4.1
+torch==1.12.0
+torchvision==0.13.0
+tqdm==4.28.1

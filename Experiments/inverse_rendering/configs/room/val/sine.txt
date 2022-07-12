@@ -1,0 +1,5 @@
+expname = room/val/sine
+
+datadir = ../../data/nerf_llff_data/room
+supervision = val
+activations = [sine, sine, sine, sine, sine, sine, sine, sine]

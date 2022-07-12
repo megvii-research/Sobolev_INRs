@@ -1,0 +1,5 @@
+exp_name = bird/val/sine
+
+filename = bird
+supervision = val
+activations = [sine, sine, sine, sine]

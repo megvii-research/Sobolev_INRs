@@ -1,0 +1,6 @@
+exp_name = baby/val/relu_pos
+
+filename = baby
+supervision = val
+activations = [relu, relu, relu, relu]
+has_pos_encoding = True

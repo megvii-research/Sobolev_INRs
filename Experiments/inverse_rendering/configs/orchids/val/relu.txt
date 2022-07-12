@@ -1,0 +1,5 @@
+expname = orchids/val/relu
+
+datadir = ../../data/nerf_llff_data/orchids
+supervision = val
+activations = [relu, relu, relu, relu, relu, relu, relu, relu]

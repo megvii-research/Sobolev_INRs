@@ -1,0 +1,5 @@
+expname = horns/val/relu
+
+datadir = ../../data/nerf_llff_data/horns
+supervision = val
+activations = [relu, relu, relu, relu, relu, relu, relu, relu]

@@ -1,0 +1,5 @@
+exp_name = bird/val_der/relu
+
+filename = bird
+supervision = val_der
+activations = [relu, relu, relu, relu]

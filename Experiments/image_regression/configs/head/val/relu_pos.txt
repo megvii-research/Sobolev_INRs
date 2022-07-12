@@ -1,0 +1,6 @@
+exp_name = head/val/relu_pos
+
+filename = head
+supervision = val
+activations = [relu, relu, relu, relu]
+has_pos_encoding = True

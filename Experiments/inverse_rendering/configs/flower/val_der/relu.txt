@@ -1,0 +1,5 @@
+expname = flower/val_der/relu
+
+datadir = ../../data/nerf_llff_data/flower
+supervision = val_der
+activations = [relu, relu, relu, relu, relu, relu, relu, relu]

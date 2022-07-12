@@ -1,0 +1,5 @@
+exp_name = head/val_der/relu
+
+filename = head
+supervision = val_der
+activations = [relu, relu, relu, relu]

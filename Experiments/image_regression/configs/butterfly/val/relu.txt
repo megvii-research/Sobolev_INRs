@@ -1,0 +1,5 @@
+exp_name = butterfly/val/relu
+
+filename = butterfly
+supervision = val
+activations = [relu, relu, relu, relu]

@@ -1,0 +1,5 @@
+exp_name = butterfly/val/sine
+
+filename = butterfly
+supervision = val
+activations = [sine, sine, sine, sine]

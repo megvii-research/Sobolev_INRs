@@ -1,0 +1,6 @@
+exp_name = butterfly/val/relu_pos
+
+filename = butterfly
+supervision = val
+activations = [relu, relu, relu, relu]
+has_pos_encoding = True

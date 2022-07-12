@@ -1,0 +1,5 @@
+expname = room/val/relu
+
+datadir = ../../data/nerf_llff_data/room
+supervision = val
+activations = [relu, relu, relu, relu, relu, relu, relu, relu]

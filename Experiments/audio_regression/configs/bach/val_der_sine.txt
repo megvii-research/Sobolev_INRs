@@ -1,0 +1,5 @@
+exp_name = bach/val_der_sine
+
+supervision = val_der
+filename = gt_bach.wav
+activations = [sine, sine, sine, sine]

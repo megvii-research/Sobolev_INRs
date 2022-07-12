@@ -1,0 +1,5 @@
+expname = fern/val/relu
+
+datadir = ../../data/nerf_llff_data/fern
+supervision = val
+activations = [relu, relu, relu, relu, relu, relu, relu, relu]

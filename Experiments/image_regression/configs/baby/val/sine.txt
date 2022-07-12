@@ -1,0 +1,5 @@
+exp_name = baby/val/sine
+
+filename = baby
+supervision = val
+activations = [sine, sine, sine, sine]

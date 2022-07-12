@@ -1,0 +1,5 @@
+expname = fern/val/sine
+
+datadir = ../../data/nerf_llff_data/fern
+supervision = val
+activations = [sine, sine, sine, sine, sine, sine, sine, sine]

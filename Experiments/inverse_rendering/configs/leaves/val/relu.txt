@@ -1,0 +1,5 @@
+expname = leaves/val/relu
+
+datadir = ../../data/nerf_llff_data/leaves
+supervision = val
+activations = [relu, relu, relu, relu, relu, relu, relu, relu]

@@ -1,0 +1,5 @@
+expname = flower/val/sine
+
+datadir = ../../data/nerf_llff_data/flower
+supervision = val
+activations = [sine, sine, sine, sine, sine, sine, sine, sine]

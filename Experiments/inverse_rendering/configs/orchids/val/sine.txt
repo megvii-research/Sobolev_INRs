@@ -1,0 +1,5 @@
+expname = orchids/val/sine
+
+datadir = ../../data/nerf_llff_data/orchids
+supervision = val
+activations = [sine, sine, sine, sine, sine, sine, sine, sine]

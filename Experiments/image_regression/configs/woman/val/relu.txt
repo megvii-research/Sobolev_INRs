@@ -1,0 +1,5 @@
+exp_name = woman/val/relu
+
+filename = woman
+supervision = val
+activations = [relu, relu, relu, relu]

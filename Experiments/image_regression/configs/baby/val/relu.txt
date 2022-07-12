@@ -1,0 +1,5 @@
+exp_name = baby/val/relu
+
+filename = baby
+supervision = val
+activations = [relu, relu, relu, relu]

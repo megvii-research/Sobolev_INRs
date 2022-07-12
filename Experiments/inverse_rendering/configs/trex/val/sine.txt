@@ -1,0 +1,5 @@
+expname = trex/val/sine
+
+datadir = ../../data/nerf_llff_data/trex
+supervision = val
+activations = [sine, sine, sine, sine, sine, sine, sine, sine]

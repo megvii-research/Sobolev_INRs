@@ -98,7 +98,7 @@ def write_train_summary(data, output, writer, epoch, shape, out_train_imgs_dir):
 
     # write grad
     gt_grad = data['downsampled_grad'] # (h*w, c*2]
-    gt_grad = einops.rearrange(gt_grad, '(h w) t -> h w t', h=shape.height).unsqueeze(0) # (1, h*w, c*2)
+    gt_grad = einops.rearrange(gt_grad, '(h w) t -> h w t', h=shape.height).unsqueeze(0) # (1, h, w, c*2)
     pred_grad = output['pred_grad']
     pred_grad = einops.rearrange(pred_grad, '(h w) t -> h w t', h=shape.height).unsqueeze(0)
 

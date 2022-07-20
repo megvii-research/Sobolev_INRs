@@ -132,7 +132,7 @@ def main():
 
     logging_dir = os.path.join(args.logging_root, args.exp_name)
     if os.path.exists(logging_dir):
-        # if input("The logging directory %s exists. Overwrite? (y/n)" % logging_dir) == 'y':
+        if input("The logging directory %s exists. Overwrite? (y/n)" % logging_dir) == 'y':
             shutil.rmtree(logging_dir)
     os.makedirs(logging_dir)
 

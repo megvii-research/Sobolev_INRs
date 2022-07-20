@@ -16,8 +16,8 @@ Lastly, we show how the training paradigm can be leveraged to solve typical INRs
 
 * Clone this repo
     ```shell
-    git clone https://github.com/prstrive/Sobolev_training_INRs.git
-    cd Sobolev_training_INRs
+    git clone https://github.com/megvii-research/Sobolev_INRs.git
+    cd Sobolev_INRs
     ```
 * Install dependencies
     <details>

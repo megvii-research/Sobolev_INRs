@@ -1,12 +1,8 @@
 # Sobolev Training for Implicit Neural Representations with Approximated Image Derivatives
-The experimental code of "[Sobolev Training for Implicit Neural Representations with Approximated Image Derivatives](https://arxiv.org/abs/xxxx.xxxxx)" in ECCV 2022.
+The experimental code of "[Sobolev Training for Implicit Neural Representations with Approximated Image Derivatives](https://arxiv.org/abs/2207.10395)" in ECCV 2022.
 
 ## Abstract
-Recently, Implicit Neural Representations (INRs) parameterized by neural networks have emerged as a powerful and promising tool to represent all kinds of signals due to its continuous, differentiable properties, showing many superiorities to classical discretized representations. Nevertheless, training of neural networks for INRs only utilizes input-output pairs, and the derivatives of target output with respect to the input which can be accessed in some cases are usually ignored. In this paper, we propose a training paradigm for INRs whose target output is image pixels, to encode image derivatives in addition to image values within the neural network.
-Specifically, we use finite differences to approximate image derivatives.
-Further, the neural network activated by ReLUs is poorly suited for representing complex signal's derivatives under the derivative supervision in practice, so 
-the periodic activation function is adopted to get better derivative convergence properties. 
-Lastly, we show how the training paradigm can be leveraged to solve typical INRs problems, such as image regression, inverse rendering, and demonstrate this training paradigm can improve the data-efficiency and generalization capabilities of INRs.
+Recently, Implicit Neural Representations (INRs) parameterized by neural networks have emerged as a powerful and promising tool to represent different kinds of signals due to its continuous, differentiable properties, showing superiorities to classical discretized representations. However, the training of neural networks for INRs only utilizes input-output pairs, and the derivatives of the target output with respect to the input, which can be accessed in some cases, are usually ignored. In this paper, we propose a training paradigm for INRs whose target output is image pixels, to encode image derivatives in addition to image values in the neural network. Specifically, we use finite differences to approximate image derivatives. We show how the training paradigm can be leveraged to solve typical INRs problems, i.e., image regression and inverse rendering, and demonstrate this training paradigm can improve the data-efficiency and generalization capabilities of INRs.
 
 <img src='imgs/pipeline.png'/>
 
@@ -101,3 +97,5 @@ If you find our work useful in your research, please cite:
   year={2022},
   booktitle={ECCV},
 ```
+## Acknowledgements
+Some codes of image regression task and audio regression task are borrowed from [SIREN](https://github.com/vsitzmann/siren). The implementation of inverse rendering task are based on [NeRF-PyTorch](https://github.com/yenchenlin/nerf-pytorch), which is a PyTorch implementation of original [NeRF](https://github.com/bmild/nerf). Thanks to these authors for releasing the code.

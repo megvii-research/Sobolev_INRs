@@ -15,14 +15,14 @@ def set_random_seed(seed):
     torch.backends.cudnn.deterministic = True
 
 
-def cal_psnr(gt, pred, max_val=1.):
+def cal_psnr(gt, pred, max_val=1.0):
     """cal_psnr.
 
     :param pred: [B, C, H, W]
     :param gt: [B, C, H, W]
     """
-    mse = (gt - pred).pow(2).mean(dim=(1, 2, 3)) # [B]
-    return 10. * torch.log10(max_val ** 2 / mse)
+    mse = (gt - pred).pow(2).mean(dim=(1, 2, 3))  # [B]
+    return 10.0 * torch.log10(max_val**2 / mse)
 
 
 def cal_ssim(gt, pred):
@@ -31,4 +31,4 @@ def cal_ssim(gt, pred):
     :param pred: [B, C, H, W]
     :param gt: [B, C, H, W]
     """
-    return kornia.metrics.ssim(gt, pred, 11).mean(dim=(1, 2, 3)) # [B]
+    return kornia.metrics.ssim(gt, pred, 11).mean(dim=(1, 2, 3))  # [B]
